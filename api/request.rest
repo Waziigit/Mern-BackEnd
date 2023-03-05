@@ -1,0 +1,17 @@
+
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"Finally some more progress 2"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/64018af7c30965db1346e403
+
+###
+PUT http://localhost:3001/todo/complete/64018939aedf136a072c9310
